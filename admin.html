@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Panel</title>
+    <style>
+        body { background: #111; color: #0f0; font-family: monospace; padding: 50px; text-align: center; }
+        input, textarea { width: 300px; padding: 10px; margin: 10px; background: #222; border: 1px solid #0f0; color: #fff; }
+        button { padding: 10px 20px; background: #0f0; border: none; font-weight: bold; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>ADD NEW PROJECT</h1>
+    <form method="POST">
+        <input type="text" name="title" placeholder="Название проекта" required><br>
+        <textarea name="desc" placeholder="Описание" rows="4"></textarea><br>
+        <input type="text" name="link" placeholder="http://..." required><br>
+        <button type="submit">UPLOAD TO DATABASE</button>
+    </form>
+    <br><br>
+    <a href="/" style="color: #555;">[ Back to Hub ]</a>
+</body>
+</html>
